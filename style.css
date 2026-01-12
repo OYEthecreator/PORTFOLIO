@@ -1135,9 +1135,10 @@ header ul li a:hover {
 }
 
 /* Perfectly Spaced Corners */
-.top-left { top: 15%; left: 10%; }
+.top-left { top: 15%; left: 10%;
+margin-bottom: 10rem; }
 .top-right { top: 15%; right: 10%; }
-.bottom-left { bottom: 15%; left: 10%; }
+.bottom-left { bottom: 15%; left: 10%; margin-top: 20%;}
 .bottom-right { bottom: 15%; right: 10%; }
 
 /* Responsive */
