@@ -9,824 +9,853 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
+<!-- Boxicons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- Devicons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- AOS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 </head>
+<style>
+/* ── Project Card Image Placeholder ─────────────────────── */
+</style>
 
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!-- BODY CONTENT — replace your existing <body> inner HTML with this -->
+<!-- ════════════════════════════════════════════════════════════════ -->
 <body>
-    <div class="container">
-        <!-- Background Video -->
-        <video class="back-vid" autoplay loop muted playsinline src="videos/galaxy.mp4"></video>
-        <header>
-            <h4 class="header-name" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-sine">
-                <span class="header-span" data-aos="fade-up" data-aos-duration="1500"
-                    data-aos-easing="ease-out-cubic"></span>
-            </h4>
-            <ul>
-                <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000" data-aos-easing="ease-in-back">
-                    <a href="#about">Home</a></li>
-                <li data-aos="fade-left" data-aos-delay="600" data-aos-duration="1500" data-aos-easing="ease-out-back">
-                    <a href="#projects">Projects</a></li>
-                <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="2000"
-                    data-aos-easing="ease-in-out-cubic"><a href="#skills">Skills</a></li>
-                <li data-aos="fade-down" data-aos-delay="1000" data-aos-duration="2500" data-aos-easing="ease-in-sine">
-                    <a href="#about">About</a></li>
-            </ul>
-            <button class="header-button" data-aos="zoom-in-up" data-aos-delay="2000" data-aos-duration="4000"
-                data-aos-easing="ease-in-out-back" onclick="scrollToContact()">
-                🎙️
-            </button>
-        </header>
+<div class="container">
+  <!-- Background Video -->
+  <video class="back-vid" autoplay loop muted playsinline src="videos/galaxy.mp4"></video>
 
-        <section class="hero">
-            <h1 class="my-name" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-sine"
-                data-aos-delay="500">
-                HI, I'M Ọ̀YE
-            </h1>
+  <header>
+    <h4 class="header-name" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+      <span class="header-span" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-cubic"></span>
+    </h4>
+    <ul>
+      <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000" data-aos-easing="ease-in-back"><a href="#about">Home</a></li>
+      <li data-aos="fade-left" data-aos-delay="600" data-aos-duration="1500" data-aos-easing="ease-out-back"><a href="#projects">Projects</a></li>
+      <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><a href="#skills">Skills</a></li>
+      <li data-aos="fade-down" data-aos-delay="1000" data-aos-duration="2500" data-aos-easing="ease-in-sine"><a href="#about">About</a></li>
+    </ul>
+    <button class="header-button" data-aos="zoom-in-up" data-aos-delay="2000" data-aos-duration="4000"
+      data-aos-easing="ease-in-out-back" onclick="scrollToContact()">🎙️</button>
+  </header>
 
-            <div class="hero-main">
-                <div class="hero-left" data-aos="slide-right" data-aos-delay="700" data-aos-duration="2000"
-                    data-aos-easing="ease-in-out-back">
-                    <p class="hero-subtext" data-aos="fade-up" data-aos-delay="2500" data-aos-duration="3000"
-                        data-aos-easing="ease-in-sine">
-                        "
-                        A Frontend developer focused on building structured,
-                        scalable, and performance-driven interfaces.<br>
-                        I design with intention, code with discipline,
-                        and ship experiences that feel alive — not accidental.<br>
-                        Blending visual precision with clean architecture.<br>
-                        Building digital systems, not just screens.
-                        "
-                    </p>
+  <section class="hero">
+    <h1 class="my-name" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-sine" data-aos-delay="500">
+      HI, I'M Ọ̀YE
+    </h1>
 
-                </div>
+    <div class="hero-main">
+      <div class="hero-left" data-aos="slide-right" data-aos-delay="700" data-aos-duration="2000" data-aos-easing="ease-in-out-back">
+        <p class="hero-subtext" data-aos="fade-up" data-aos-delay="2500" data-aos-duration="3000" data-aos-easing="ease-in-sine">
+          "
+          A Frontend developer focused on building structured,
+          scalable, and performance-driven interfaces.<br>
+          I design with intention, code with discipline,
+          and ship experiences that feel alive—not accidental.<br>
+          Blending visual precision with clean architecture.<br>
+          Building digital systems, not just screens.
+          "
+        </p>
+      </div>
 
-                <div class="hero-center" data-aos="flip-left" data-aos-delay="3000" data-aos-duration="5000"
-                    data-aos-easing="ease-out-cubic">
-                    <img src="./images/ChatGPT_Image_Oct_19__2025__08_34_04_AM-removebg-preview.png" alt="Bitmoji"
-                        data-aos="zoom-in-left" data-aos-delay="350" data-aos-duration="1500"
-                        data-aos-easing="ease-in-out-back">
-                </div>
+      <div class="hero-center" data-aos="flip-left" data-aos-delay="3000" data-aos-duration="5000" data-aos-easing="ease-out-cubic">
+        <img src="./images/ChatGPT_Image_Oct_19__2025__08_34_04_AM-removebg-preview.png" alt="Bitmoji"
+          data-aos="zoom-in-left" data-aos-delay="350" data-aos-duration="1500" data-aos-easing="ease-in-out-back">
+      </div>
 
-                <div class="hero-right" data-aos="slide-left" data-aos-delay="400" data-aos-duration="1100"
-                    data-aos-easing="ease-in-back">
-                    <div class="hero-meta">
-                        <button class="contact-btn" data-aos="pulse" data-aos-delay="450" data-aos-duration="900"
-                            data-aos-iteration="infinite" data-aos-easing="ease-in-sine">
-                            Get In Touch
-                        </button>
-                        <span>Design Systems</span>
-                        <span>Responsive Architecture</span>
-                        <span>Motion & Micro-Interactions</span>
-                        <span>Performance-Focused UI</span>
-                    </div>
-                </div>
-            </div>
+      <div class="hero-right" data-aos="slide-left" data-aos-delay="400" data-aos-duration="1100" data-aos-easing="ease-in-back">
+        <div class="hero-meta">
+          <button class="contact-btn" data-aos="pulse" data-aos-delay="450" data-aos-duration="900"
+            data-aos-iteration="infinite" data-aos-easing="ease-in-sine">Get In Touch</button>
+          <span>Design Systems</span>
+          <span>Responsive Architecture</span>
+          <span>Motion & Micro-Interactions</span>
+          <span>Performance-Focused UI</span>
+        </div>
+      </div>
     </div>
-    <div class="hero-availability">
-        Available for internships · Freelance · Remote · Open to relocation
+  </div>
+  <div class="hero-availability">
+    Available for internships · Freelance · Remote · Open to relocation
+  </div>
+  </section>
+
+  <div class="scroll-down">↓</div>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about" class="about-section">
+    <div class="about-background">Ọ̀YE</div>
+    <div class="about-info">
+      <div class="info-box left-box" data-aos="slide-right" data-aos-duration="3000" data-aos-easing="ease-out-back">
+        <p>
+          Crafting immersive digital experiences<br>
+          Interfaces that move with purpose<br>
+          Translating ideas into living visuals<br>
+          Code meets artistry seamlessly
+        </p>
+      </div>
+      <div class="info-box right-box" data-aos="slide-left" data-aos-duration="3000" data-aos-easing="ease-out-back">
+        <p>
+          Designing with cinematic precision<br>
+          Building digital worlds that breathe<br>
+          Innovation meets elegance in motion<br>
+          Where aesthetics and function unite
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ GLOBE / BIO ═══ -->
+  <section class="about-globe-section">
+    <div class="section-border" data-aos="fade-in"></div>
+    <h2 class="about-globe-header" data-aos="fade-down">BIO</h2>
+    <div class="globe-center" data-aos="zoom-in">
+      <video src="./videos/glob.mp4" autoplay muted loop playsinline class="globe-video"></video>
+    </div>
+    <div class="globe-info top-left" data-aos="fade-right" data-aos-delay="200">
+      <p>As a passionate Front-End Developer, I specialize in crafting visually engaging and responsive digital
+        experiences. I focus on transforming ideas into interactive, user-centered designs that balance functionality
+        with aesthetic precision. ...</p>
+    </div>
+    <div class="globe-info top-right" data-aos="fade-left" data-aos-delay="400">
+      <p>Driven by curiosity and precision, I approach every project with a designer's eye and a developer's discipline.
+        I pay close attention to layout structure,color balance,and motion ensuring that each element works together
+        to enhance the overall experience.</p>
+    </div>
+    <div class="globe-info bottom-left" data-aos="fade-right" data-aos-delay="600">
+      <p>Throughout my journey as a developer, I've worked on a range of creative web projects that have strengthened
+        my problem-solving and design-thinking skills. Each challenge has taught me the importance of structure,
+        scalability, and user empathy in front-end development. I enjoy experimenting with new layouts, exploring
+        performance optimization, and translating design concepts into smooth, interactive web experiences.</p>
+    </div>
+    <div class="globe-info bottom-right" data-aos="fade-left" data-aos-delay="800">
+      <p>Looking ahead, I'm committed to continuously expanding my skills and refining my craft as a front-end developer.
+        My goal is to collaborate on forward-thinking projects that merge creativity with technology —building digital
+        experiences that not only engage users but leave a lasting impression. I'm always eager to learn, adapt, and
+        contribute to teams that value innovation, design integrity, and clean, efficient code.</p>
+    </div>
+  </section>
+
+  <!-- ═══ SERVICES ═══ -->
+  <section class="services-section">
+    <div class="services-grid">
+      <h1>WHAT I DO</h1>
+
+      <div class="service-card" data-aos="fade-up">
+        <h3 class="service-header">Frontend Development</h3>
+        <p class="service-brief" data-typewriter>
+          I craft digital experiences that captivate, inspire, and leave a lasting impression. By blending creativity,
+          precision, and thoughtful interaction design, I create interfaces that feel alive and intuitive.
+        </p>
+        <div class="service-full-details">
+          <p>Frontend Development is where creativity meets precision. I craft responsive, interactive, and visually
+            polished digital experiences that feel alive and intuitive. Every interface is carefully designed — from the
+            smallest interaction to the overall layout — to create immersive user journeys.</p>
+        </div>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="service-header">Web Animations</h3>
+        <p class="service-brief" data-typewriter>
+          I design cinematic animations and microinteractions that bring digital experiences to life. Every motion is
+          crafted to engage users, guide interactions, and create a sense of depth and immersion.
+        </p>
+        <div class="service-full-details">
+          <p>Animations make digital experiences feel alive. I create cinematic, high-impact animations and
+            microinteractions using CSS, JavaScript, and libraries like Three.js. From hover effects to
+            scroll-triggered animations, I enhance interfaces in a way that draws users in and guides them intuitively.</p>
+        </div>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+        <h3 class="service-header">API Integration</h3>
+        <p class="service-brief" data-typewriter>
+          API Integration allows websites to be dynamic, live, and interactive. I connect applications to RESTful and
+          GraphQL APIs, fetching and displaying real-time data seamlessly.
+        </p>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+        <h3 class="service-header">Interactive UI Components</h3>
+        <p class="service-brief" data-typewriter>
+          Interactive UI Components are at the heart of engaging web experiences. I design and implement reusable
+          elements like sliders, modals, tabs, accordions, and dynamic menus purely with HTML, CSS, and JavaScript.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══  — devicons replace FontAwesome where possible -->
+  <section class="skills-section" id="skills">
+    <h1 class="skills-header">Technical Skills</h1>
+    <div class="skills-grid">
+
+      <!-- Frontend Skills -->
+      <div class="skill-category">
+        <h2 class="category-header">Frontend</h2>
+        <div class="skills-list">
+
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-html5-plain colored"></i>
+            </div>
+            <div class="skill-info">
+              <div class="skill-name">HTML5</div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percentage="95"></div>
+                <span class="skill-percentage">95%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-css3-plain colored"></i>
+            </div>
+            <div class="skill-info">
+              <div class="skill-name">CSS3</div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percentage="90"></div>
+                <span class="skill-percentage">90%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-javascript-plain colored"></i>
+            </div>
+            <div class="skill-info">
+              <div class="skill-name">JavaScript</div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percentage="85"></div>
+                <span class="skill-percentage">85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon">
+                <i class="devicon-react-original colored"></i>
+            </div>
+            <div class="skill-info">
+              <div class="skill-name">React</div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percentage="80"></div>
+                <span class="skill-percentage">80%</span>
+              </div>
+            </div>
+          </div>
+
+              <div class="skill-item">
+      <div class="skill-icon">
+        <i class="devicon-tailwindcss-plain colored"></i>
+      </div>
+      <div class="skill-info">
+        <div class="skill-name">Tailwind CSS</div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-percentage="85"></div>
+          <span class="skill-percentage">85%</span>
+        </div>
+      </div>
     </div>
 
-    </section>
-    <div class="scroll-down">↓ </div>
-
-    <section id="about" class="about-section">
-        <div class="about-background">
-            Ọ̀YE
         </div>
+      </div>
 
-        <!-- Sliding Info Boxes -->
-        <div class="about-info">
-            <div class="info-box left-box" data-aos="slide-right" data-aos-duration="3000"
-                data-aos-easing="ease-out-back">
-                <p>
-                    Crafting immersive digital experiences<br>
-                    Interfaces that move with purpose<br>
-                    Translating ideas into living visuals<br>
-                    Code meets artistry seamlessly
-                </p>
-            </div>
+    <!-- Tools & Others -->
+<div class="skill-category">
+  <h2 class="category-header">Backend & Tools (MERN)</h2>
+  <div class="skills-list">
 
-            <div class="info-box right-box" data-aos="slide-left" data-aos-duration="3000"
-                data-aos-easing="ease-out-back">
-                <p>
-                    Designing with cinematic precision<br>
-                    Building digital worlds that breathe<br>
-                    Innovation meets elegance in motion<br>
-                    Where aesthetics and function unite
-                </p>
-            </div>
+    <!-- Node.js -->
+    <div class="skill-item">
+      <div class="skill-icon">
+        <i class="devicon-nodejs-plain colored"></i>
+      </div>
+      <div class="skill-info">
+        <div class="skill-name">Node.js</div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-percentage="80"></div>
+          <span class="skill-percentage">80%</span>
         </div>
+      </div>
+    </div>
 
-    </section>
-    <section class="about-globe-section">
-        <!-- Section Border -->
-        <div class="section-border" data-aos="fade-in"></div>
-
-        <!-- Section Header -->
-        <h2 class="about-globe-header" data-aos="fade-down">BIO</h2>
-
-        <!-- Center Globe -->
-        <div class="globe-center" data-aos="zoom-in">
-            <video src="./videos/glob.mp4" autoplay muted loop playsinline class="globe-video"></video>
+    <!-- Express.js -->
+    <div class="skill-item">
+      <div class="skill-icon">
+        <i style="color: white;" class="devicon-express-original colored"></i>
+      </div>
+      <div class="skill-info">
+        <div class="skill-name">Express.js</div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-percentage="75"></div>
+          <span class="skill-percentage">75%</span>
         </div>
-        <!-- Info Boxes Around Globe -->
-        <div class="globe-info top-left" data-aos="fade-right" data-aos-delay="200">
-            <p>
-                As a passionate Front-End Developer, I specialize in crafting visually engaging
-                and responsive digital experiences. I focus on transforming ideas into
-                interactive, user-centered designs that balance functionality with aesthetic precision.
-                With a deep appreciation for clean code and modern web standards, I strive to create
-                interfaces that not only look exceptional but feel intuitive and seamless across all devices...
-            </p>
-        </div> 
+      </div>
+    </div>
 
-        <div class="globe-info top-right" data-aos="fade-left" data-aos-delay="400">
-            <p>
-                Driven by curiosity and precision, I approach every project with a designer’s eye
-                and a developer’s discipline. I pay close attention to layout structure, color balance,
-                and motion — ensuring that each element works together to enhance the overall experience.
-                Whether it’s refining animations, optimizing responsiveness, or simplifying user interactions,
-                I’m dedicated to building interfaces that are both functional and memorable.
-            </p>
+    <!-- MongoDB -->
+    <div class="skill-item">
+      <div class="skill-icon">
+        <i class="devicon-mongodb-plain colored"></i>
+      </div>
+      <div class="skill-info">
+        <div class="skill-name">MongoDB</div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-percentage="70"></div>
+          <span class="skill-percentage">70%</span>
         </div>
+      </div>
+    </div>
 
-        <div class="globe-info bottom-left" data-aos="fade-right" data-aos-delay="600">
-            <p>
-                Throughout my journey as a developer, I’ve worked on a range of creative web projects
-                that have strengthened my problem-solving and design-thinking skills. Each challenge
-                has taught me the importance of structure, scalability, and user empathy in front-end development.
-                I enjoy experimenting with new layouts, exploring performance optimization, and translating design
-                concepts into smooth, interactive web experiences that feel alive in the browser.
-            </p>
+    <!-- REST API -->
+    <div class="skill-item">
+      <div class="skill-icon " >
+        <i style="color: white;" class="bx bx-transfer-alt"></i>
+      </div>
+      <div class="skill-info">
+        <div class="skill-name">REST APIs</div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-percentage="85"></div>
+          <span class="skill-percentage">85%</span>
         </div>
+      </div>
+    </div>
 
-        <div class="globe-info bottom-right" data-aos="fade-left" data-aos-delay="800">
-            <p>
-                Looking ahead, I’m committed to continuously expanding my skills and refining my craft
-                as a front-end developer. My goal is to collaborate on forward-thinking projects that merge
-                creativity with technology — building digital experiences that not only engage users but
-                leave a lasting impression. I’m always eager to learn, adapt, and contribute to teams
-                that value innovation, design integrity, and clean, efficient code.
-            </p>
+    <!-- NPM -->
+    <div class="skill-item">
+      <div class="skill-icon">
+        <i class="devicon-npm-original-wordmark colored"></i>
+      </div>
+      <div class="skill-info">
+        <div class="skill-name">NPM</div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-percentage="80"></div>
+          <span class="skill-percentage">80%</span>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section class="services-section">
-        <div class="services-grid">
-            <h1>WHAT I DO</h1>
+  </div>
+</div>
+  </section>
 
-            <!-- Card 1: Frontend Development -->
-            <div class="service-card" data-aos="fade-up">
-                <h3 class="service-header">Frontend Development</h3>
-                <p class="service-brief" data-typewriter>
-                    I craft digital experiences that captivate, inspire, and leave a lasting impression. By blending
-                    creativity, precision, and thoughtful interaction design, I create interfaces that feel alive and
-                    intuitive. Every project I take on emphasizes clarity, flow, and impact, turning ideas into
-                    immersive experiences that engage users effortlessly. I push boundaries, refine every detail, and
-                    ensure that each digital space I build is both functional and memorable.
-                </p>
+  <!-- ═══ PROJECTS ═══ -->
+  <section id="projects" class="projects-section">
+    <h1 class="projects-header">Featured Projects</h1>
 
-                <div class="service-full-details">
-                    <p>
-                        Frontend Development is where creativity meets precision. I craft responsive, interactive, and
-                        visually polished digital experiences that feel alive and intuitive. Every interface is
-                        carefully designed — from the smallest interaction to the overall layout — to create immersive
-                        user journeys. My work emphasizes performance, accessibility, and attention to detail, ensuring
-                        that each project is both functional and memorable. Whether it’s a landing page, portfolio, or
-                        complex application, I transform ideas into living, breathing digital experiences that captivate
-                        and inspire.
-                    </p>
-                </div>
-            </div>
+    <div class="projects-container">
 
-            <!-- Card 2: Web Animations -->
-            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                <h3 class="service-header">Web Animations</h3>
-                <p class="service-brief" data-typewriter>
-                    I design cinematic animations and microinteractions that bring digital experiences to life. Every
-                    motion is crafted to engage users, guide interactions, and create a sense of depth and immersion. By
-                    focusing on fluidity, timing, and subtle visual cues, I ensure that each website feels dynamic,
-                    polished, and unforgettable.
-                </p>
-                <div class="service-full-details">
-                    <p>
-                        Animations make digital experiences feel alive. I create cinematic, high-impact animations and
-                        microinteractions using CSS, JavaScript, and libraries like Three.js. From hover effects to
-                        scroll-triggered animations, I enhance interfaces in a way that draws users in and guides them
-                        intuitively. My approach combines timing, easing, and storytelling, making sure every motion
-                        serves a purpose. By integrating interactive 3D elements, dynamic transitions, and subtle visual
-                        cues, I transform static designs into engaging experiences that stand out from standard
-                        websites.
-                    </p>
-                </div>
-            </div>
+      <!-- PROJECT 1: Portfolio -->
+      <div class="project-card">
+        <!-- ✦ IMAGE PLACEHOLDER --><div class="project-media">
+  <img src="./images/ChatGPT Image Mar 30, 2026, 06_38_51 PM.png" alt="project">
+  <div class="media-overlay"></div>
+</div>
 
-            <!-- Card 3: API Integration -->
-            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-                <h3 class="service-header">API Integration</h3>
-                <p class="service-brief" data-typewriter>
+        <div class="project-content">
+          <h2 class="project-title">Modern Portfolio</h2>
+          <p class="project-description">
+            A cutting-edge portfolio featuring metallic design, 3D animations,
+            and mobile-first responsive design. Built with advanced CSS transforms
+            and modern JavaScript interactions.
+          </p>
 
-                    API Integration allows websites to be dynamic, live, and interactive. I connect applications to
-                    RESTful and GraphQL APIs, fetching and displaying real-time data seamlessly. This includes creating
-                    dashboards, interactive components, and personalized experiences for users. I ensure that data flows
-                    smoothly, updates efficiently, and interfaces remain responsive, even with complex datasets. By
-                    combining frontend logic with API communication, I build applications that feel smart, interactive,
-                    and professional, elevating simple websites into real-world, functional digital solutions.
-                </p>
+          <div class="tech-stack">
+            <span class="tech-tag"><i class="devicon-html5-plain colored"></i> HTML5</span>
+            <span class="tech-tag"><i class="devicon-css3-plain colored"></i> CSS3</span>
+            <span class="tech-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fas fa-mobile-alt"></i> Responsive</span>
+          </div>
 
-            </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-value">98%</span><span class="metric-label">Performance</span></div>
+            <div class="metric"><span class="metric-value">100%</span><span class="metric-label">Mobile</span></div>
+            <div class="metric"><span class="metric-value">A+</span><span class="metric-label">SEO</span></div>
+          </div>
 
-            <!-- Card 4: Interactive UI Components -->
-            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
-                <h3 class="service-header">Interactive UI Components</h3>
-                <p class="service-brief" data-typewriter>
-
-                    Interactive UI Components are at the heart of engaging web experiences. I design and implement
-                    reusable elements like sliders, modals, tabs, accordions, and dynamic menus purely with HTML, CSS,
-                    and JavaScript. Each component is optimized for responsiveness, smooth animations, and user
-                    interaction, ensuring interfaces feel alive and professional. By combining design aesthetics with
-                    clean, scalable code, I create components that enhance usability, increase engagement, and make
-                    websites not just functional but memorable. These components can be easily integrated across
-                    projects, providing consistency, efficiency, and a high-quality user experience.
-                </p>
-            </div>
+          <div class="project-links">
+            <a href="https://myportfolio-rose-kappa.vercel.app" class="project-link live-demo">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+            <a href="https://github.com/OYEthecreator/PORTFOLIO" class="project-link source-code">
+              <i class="devicon-github-original"></i> Source Code
+            </a>
+          </div>
         </div>
-    </section>
-    <section class="skills-section" id="skills">
-        <h1 class="skills-header">Technical Skills</h1>
-        <div class="skills-grid">
-            <!-- Frontend Skills -->
-            <div class="skill-category">
-                <h2 class="category-header">Frontend</h2>
-                <div class="skills-list">
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-html5"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">HTML5</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="95"></div>
-                                <span class="skill-percentage">95%</span>
-                            </div>
-                        </div>
-                    </div>
+      </div>
 
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">CSS3</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="90"></div>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                        </div>
-                    </div>
+      <!-- PROJECT 2: VOUX Fashion -->
+      <div class="project-card">
+        <!-- ✦ IMAGE PLACEHOLDER -->
+      <div class="project-media">
+  <img src="./images/ChatGPT Image Mar 30, 2026, 07_13_10 PM.png" alt="project">
+  <div class="media-overlay"></div>
+</div>
 
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-js"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">JavaScript</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="85"></div>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
+        <div class="project-content">
+          <h2 class="project-title">VOUX Fashion</h2>
+          <p class="project-description">
+            Modern ecommerce fashion platform with product catalog, shopping cart,
+            and secure checkout. Features responsive design and intuitive user experience
+            for fashion shoppers.
+          </p>
 
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-react"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">React</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="80"></div>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="tech-stack">
+            <span class="tech-tag"><i class="fas fa-shopping-cart"></i> Ecommerce</span>
+            <span class="tech-tag"><i class="devicon-figma-plain colored"></i> UI/UX Design</span>
+            <span class="tech-tag"><i class="fas fa-bag-shopping"></i> Shopping Cart</span>
+            <span class="tech-tag"><i class="fas fa-mobile-alt"></i> Responsive</span>
+          </div>
 
-            <!-- Tools & Others -->
-            <div class="skill-category">
-                <h2 class="category-header">Tools & Others</h2>
-                <div class="skills-list">
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-git-alt"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">Git</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="85"></div>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-value">95%</span><span class="metric-label">Conversion</span></div>
+            <div class="metric"><span class="metric-value">2.1s</span><span class="metric-label">Load Time</span></div>
+            <div class="metric"><span class="metric-value">4.8★</span><span class="metric-label">Rating</span></div>
+          </div>
 
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-figma"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">Figma</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="70"></div>
-                                <span class="skill-percentage">70%</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-sass"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">Sass</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="80"></div>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-icon">
-                            <i class="fab fa-npm"></i>
-                        </div>
-                        <div class="skill-info">
-                            <div class="skill-name">NPM</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-percentage="75"></div>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="project-links">
+            <a href="https://v-original.vercel.app" class="project-link live-demo">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+            <a href="https://github.com/OYEthecreator/V-ORIGINAL" class="project-link source-code">
+              <i class="devicon-github-original"></i> Source Code
+            </a>
+          </div>
         </div>
-    </section>
-    <!-- ===== Projects Section ===== -->
-    <section id="projects" class="projects-section">
-        <h1 class="projects-header">Featured Projects</h1>
+      </div>
 
-        <div class="projects-container">
+      <!-- PROJECT 3: LifeBoard -->
+      <div class="project-card">
+        <!-- ✦ IMAGE PLACEHOLDER -->
+        <div class="project-media">
+  <img src="./images/ChatGPT Image Mar 31, 2026, 03_56_00 AM.png" alt="project">
+  <div class="media-overlay"></div>
+</div>
+        <div class="project-content">
+          
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:6px;">
+      <h2 class="project-title" style="margin:0;">LIFEBOARD</h2>
+      <span style="background:linear-gradient(135deg,#02013d,black, #2f05c9); color:#fff; font-size:0.62rem; font-weight:700; letter-spacing:2px; padding:3px 10px; border-radius:20px; text-transform:uppercase;">🚧 In Development</span>
+    </div>
+          <p class="project-description">
+            Advanced task management application with API integration, real-time updates,
+            and collaborative features. Includes drag-and-drop functionality and
+            progress tracking.
+          </p>
 
-            <!-- PROJECT 1: This Portfolio -->
-            <div class="project-card">
-                <div class="project-preview">
-                    <div class="project-image">
-                        <i class="fas fa-gem"></i>
-                    </div>
-                </div>
+          <div class="tech-stack">
+            <span class="tech-tag"><i class="fas fa-plug"></i> API Integration</span>
+            <span class="tech-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fas fa-database"></i> Local Storage</span>
+            <span class="tech-tag"><i class="fas fa-sync-alt"></i> CRUD Operations</span>
+          </div>
 
-                <div class="project-content">
-                    <h2 class="project-title">Modern Portfolio</h2>
-                    <p class="project-description">
-                        A cutting-edge portfolio featuring metallic design, 3D animations,
-                        and mobile-first responsive design. Built with advanced CSS transforms
-                        and modern JavaScript interactions.
-                    </p>
-
-                    <div class="tech-stack">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Responsive</span>
-                    </div>
-
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">98%</span>
-                            <span class="metric-label">Performance</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">100%</span>
-                            <span class="metric-label">Mobile</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">A+</span>
-                            <span class="metric-label">SEO</span>
-                        </div>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://myportfolio-rose-kappa.vercel.app" class="project-link live-demo">
-                            <i class="fas fa-play"></i> Live Demo
-                        </a>
-                        <a href="https://github.com/OYEthecreator/PORTFOLIO" class="project-link source-code">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PROJECT 2: VOUX Fashion -->
-            <div class="project-card">
-                <div class="project-preview">
-                    <div class="project-image">
-                        <i class="fas fa-tshirt"></i>
-                    </div>
-                </div>
-
-                <div class="project-content">
-                    <h2 class="project-title">VOUX Fashion</h2>
-                    <p class="project-description">
-                        Modern ecommerce fashion platform with product catalog, shopping cart,
-                        and secure checkout. Features responsive design and intuitive user experience
-                        for fashion shoppers.
-                    </p>
-
-                    <div class="tech-stack">
-                        <span class="tech-tag">Ecommerce</span>
-                        <span class="tech-tag">UI/UX Design</span>
-                        <span class="tech-tag">Shopping Cart</span>
-                        <span class="tech-tag">Responsive</span>
-                    </div>
-
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">95%</span>
-                            <span class="metric-label">Conversion</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">2.1s</span>
-                            <span class="metric-label">Load Time</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">4.8★</span>
-                            <span class="metric-label">Rating</span>
-                        </div>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://v-original.vercel.app" class="project-link live-demo">
-                            <i class="fas fa-play"></i> Live Demo
-                        </a>
-                        <a href="https://github.com/OYEthecreator/V-ORIGINAL" class="project-link source-code">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PROJECT 3: LifeBoard -->
-            <div class="project-card">
-                <div class="project-preview">
-                    <div class="project-image">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                </div>
-
-                <div class="project-content">
-                    <h2 class="project-title">LifeBoard</h2>
-                    <p class="project-description">
-                        Advanced task management application with API integration, real-time updates,
-                        and collaborative features. Includes drag-and-drop functionality and
-                        progress tracking.
-                    </p>
-
-                    <div class="tech-stack">
-                        <span class="tech-tag">API Integration</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Local Storage</span>
-                        <span class="tech-tag">CRUD Operations</span>
-                    </div>
-
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">99%</span>
-                            <span class="metric-label">Uptime</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">50ms</span>
-                            <span class="metric-label">API Response</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">4.9★</span>
-                            <span class="metric-label">Rating</span>
-                        </div>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="#" class="project-link live-demo">
-                            <i class="fas fa-play"></i> Live Demo
-                        </a>
-                        <a href="#" class="project-link source-code">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PROJECT 3: LifeBoard -->
-            <div class="project-card">
-                <div class="project-preview">
-                    <div class="project-image">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                </div>
-
-                <div class="project-content">
-                    <h2 class="project-title">Yonique Stationery</h2>
-                    <p class="project-description">
-                        Advanced task management application with API integration, real-time updates,
-                        and collaborative features. Includes drag-and-drop functionality and
-                        progress tracking.
-                    </p>
-
-                    <div class="tech-stack">
-                        <span class="tech-tag">API Integration</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Local Storage</span>
-                        <span class="tech-tag">CRUD Operations</span>
-                    </div>
-
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">99%</span>
-                            <span class="metric-label">Uptime</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">50ms</span>
-                            <span class="metric-label">API Response</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">4.9★</span>
-                            <span class="metric-label">Rating</span>
-                        </div>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://yonique-stationery.vercel.app" class="project-link live-demo">
-                            <i class="fas fa-play"></i> Live Demo
-                        </a>
-                        <a href="https://github.com/OYEthecreator/Yonique-stationery" class="project-link source-code">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PROJECT 3: LifeBoard -->
-            <div class="project-card">
-                <div class="project-preview">
-                    <div class="project-image">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                </div>
-
-                <div class="project-content">
-                    <h2 class="project-title">SafeMeasure</h2>
-                    <p class="project-description">
-                        Professional landing page designed for SafeMeasure Construction,
-                        showcasing construction services, safety standards, and project expertise.
-                        Built to establish trust, highlight compliance-driven workflows,
-                        and present a strong, reliable brand presence for clients and partners
-                        in the construction industry.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Responsive</span>
-                    </div>
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">98%</span>
-                            <span class="metric-label">Performance</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">100%</span>
-                            <span class="metric-label">Mobile</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">A+</span>
-                            <span class="metric-label">SEO</span>
-                        </div>
-                    </div>
-
-
-                    <div class="project-links">
-                        <a href="https://safemeasure-construction-loyg.vercel.app" class="project-link live-demo">
-                            <i class="fas fa-play"></i> Live Demo
-                        </a>
-                        <a href="https://github.com/OYEthecreator/Safemeasure-Construction" class="project-link source-code">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-value">99%</span><span class="metric-label">Uptime</span></div>
+            <div class="metric"><span class="metric-value">50ms</span><span class="metric-label">API Response</span></div>
+            <div class="metric"><span class="metric-value">4.9★</span><span class="metric-label">Rating</span></div>
+          </div>
+          <!-- Links -->
+<div class="project-links">
+  <a href="#" class="project-link live-demo" onclick="document.getElementById('lifeboard-modal').style.display='flex'; return false;">
+    <i class="fas fa-play"></i> Live Demo
+  </a>
+  <a href="#" class="project-link source-code" onclick="document.getElementById('lifeboard-modal').style.display='flex'; return false;">
+    <i class="devicon-github-original"></i> Source Code
+  </a>
+</div>
         </div>
-    </section>
-        <section class="work-with-me">
-            <h1 class="section-title" data-aos="fade-down">What It's Like To Work With Me</h1>
-            <p class="section-subtitle" data-aos="fade-down" data-aos-delay="200">Professional partnership focused on
-                your business success</p>
+      </div>
+      <!-- ═══ LIFEBOARD COMING SOON MODAL ═══ -->
+<div id="lifeboard-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(10px); z-index:9999; align-items:center; justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
+  <div style="background:linear-gradient(135deg,#0f0f1a,#0c2461); border:1px solid rgba(59,130,246,0.3); border-radius:20px; padding:48px 40px; max-width:480px; width:90%; text-align:center; position:relative; box-shadow:0 0 60px rgba(59,130,246,0.15);">
+    <button onclick="document.getElementById('lifeboard-modal').style.display='none'" style="position:absolute; top:16px; right:20px; background:none; border:none; color:rgba(255,255,255,0.4); font-size:1.4rem; cursor:pointer;">✕</button>
+    <div style="font-size:3rem; margin-bottom:16px;">📋</div>
+    <h2 style="font-size:1.6rem; font-weight:800; margin-bottom:8px; background:linear-gradient(135deg,#3b82f6,#1e3799); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">LifeBoard</h2>
+    <p style="font-size:0.8rem; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,0.4); margin-bottom:20px;">Currently In Development</p>
+    <p style="color:rgba(255,255,255,0.65); line-height:1.7; font-size:0.95rem; margin-bottom:28px;">
+      LifeBoard is actively being built — a full task management platform with real-time updates, drag-and-drop, and collaborative features. Launching soon.
+    </p>
+    <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+      <button onclick="document.getElementById('lifeboard-modal').style.display='none'" style="display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15); color:#fff; padding:12px 24px; border-radius:10px; font-weight:600; font-size:0.88rem; cursor:pointer;">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
 
-            <div class="process-timeline">
-                <!-- Phase 1 -->
-                <div class="timeline-phase">
-                    <div class="phase-content" data-aos="fade-right">
-                        <div class="phase-number">01</div>
-                        <div class="phase-icon">
-                            <i class="fas fa-bullseye"></i>
-                        </div>
-                        <h3>Business-First Approach</h3>
-                        <p>I focus on your revenue goals and user conversion, not just technical requirements. Every
-                            feature is built to drive business growth.</p>
-                        <div class="phase-features">
-                            <span><i class="fas fa-chart-line"></i> Revenue Focused</span>
-                            <span><i class="fas fa-users"></i> User Conversion</span>
-                            <span><i class="fas fa-target"></i> Goal Oriented</span>
-                        </div>
-                    </div>
-                </div>
+<!-- ═══ CITYVERSE COMING SOON MODAL ═══ -->
 
-                <!-- Phase 2 -->
-                <div class="timeline-phase">
-                    <div class="phase-content" data-aos="fade-left">
-                        <div class="phase-number">02</div>
-                        <div class="phase-icon">
-                            <i class="fas fa-handshake"></i>
-                        </div>
-                        <h3>Reliable Partnership</h3>
-                        <p>Consistent on-time delivery with transparent communication. I become an extension of your
-                            team, not just a contractor.</p>
-                        <div class="phase-features">
-                            <span><i class="fas fa-clock"></i> On-Time Delivery</span>
-                            <span><i class="fas fa-comments"></i> Transparent Updates</span>
-                            <span><i class="fas fa-shield-alt"></i> Trustworthy</span>
-                        </div>
-                    </div>
-                </div>
+      <!-- PROJECT 4: Yonique Stationery -->
+      <div class="project-card">
+        <!-- ✦ IMAGE PLACEHOLDER -->
+        <div class="project-media">
+  <img src="./images/ChatGPT Image Mar 30, 2026, 07_24_20 PM.png" alt="project">
+  <div class="media-overlay"></div>
+</div>
 
-                <!-- Phase 3 -->
-                <div class="timeline-phase">
-                    <div class="phase-content" data-aos="fade-right">
-                        <div class="phase-number">03</div>
-                        <div class="phase-icon">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <h3>Scalable Solutions</h3>
-                        <p>Architecture designed for growth and maintenance. Your investment today won't need expensive
-                            rewrites tomorrow.</p>
-                        <div class="phase-features">
-                            <span><i class="fas fa-expand"></i> Growth Ready</span>
-                            <span><i class="fas fa-tools"></i> Easy Maintenance</span>
-                            <span><i class="fas fa-bolt"></i> Performance</span>
-                        </div>
-                    </div>
-                </div>
+        <div class="project-content">
+          <h2 class="project-title">Yonique Stationery</h2>
+          <p class="project-description">
+            Elegant stationery ecommerce experience with a refined product browsing UI,
+            real-time cart, and smooth checkout flow. Focused on premium aesthetics
+            and seamless user interaction.
+          </p>
 
-                <!-- Phase 4 -->
-                <div class="timeline-phase">
-                    <div class="phase-content" data-aos="fade-left">
-                        <div class="phase-number">04</div>
-                        <div class="phase-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3>Market-Ready Quality</h3>
-                        <p>Production-level code with thorough testing across all devices. Your product works perfectly
-                            for every user, everywhere.</p>
-                        <div class="phase-features">
-                            <span><i class="fas fa-mobile"></i> Cross-Platform</span>
-                            <span><i class="fas fa-vial"></i> Quality Tested</span>
-                            <span><i class="fas fa-search"></i> SEO Optimized</span>
-                        </div>
-                    </div>
-                </div>
+          <div class="tech-stack">
+            <span class="tech-tag"><i class="fas fa-plug"></i> API Integration</span>
+            <span class="tech-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fas fa-database"></i> Local Storage</span>
+            <span class="tech-tag"><i class="fas fa-sync-alt"></i> CRUD Operations</span>
+          </div>
 
-                <!-- Phase 5 -->
-                <div class="timeline-phase">
-                    <div class="phase-content" data-aos="fade-right">
-                        <div class="phase-number">05</div>
-                        <div class="phase-icon">
-                            <i class="fas fa-headset"></i>
-                        </div>
-                        <h3>Ongoing Value</h3>
-                        <p>Comprehensive documentation and strategic guidance. Your success continues long after project
-                            completion.</p>
-                        <div class="phase-features">
-                            <span><i class="fas fa-book"></i> Full Documentation</span>
-                            <span><i class="fas fa-graduation-cap"></i> Knowledge Transfer</span>
-                            <span><i class="fas fa-rocket"></i> Growth Strategy</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact-section">
-            <div class="metallic-universe">
-                <div class="central-sphere" data-aos="zoom-in">
-                    <div class="sphere-core">
-                        <h2>Let's Connect</h2>
-                        <p>Ready to build something amazing?</p>
-                    </div>
-                    <div class="sphere-glow"></div>
-                    <div class="sphere-reflection"></div>
-                </div>
-                <div class="satellite-orbit">
-                    <a href="mailto:Oshodioyewole4@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <div class="contact-satellite" data-aos="fade-up" data-aos-delay="200">
-                            <div class="satellite-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="satellite-info">
-                                <h4>Email</h4>
-                                <span>Message Me</span>
-                            </div>
-                            <div class="satellite-glow"></div>
-                        </div>
-                    </a>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-value">99%</span><span class="metric-label">Uptime</span></div>
+            <div class="metric"><span class="metric-value">50ms</span><span class="metric-label">API Response</span></div>
+            <div class="metric"><span class="metric-value">4.9★</span><span class="metric-label">Rating</span></div>
+          </div>
 
-                    <a href="https://wa.me/2348089951563" target="_blank" rel="noopener noreferrer">
-                        <div class="contact-satellite" data-aos="fade-up" data-aos-delay="300">
-                            <div class="satellite-icon">
-                                <i class="fab fa-whatsapp"></i>
-                            </div>
-                            <div class="satellite-info">
-                                <h4>WhatsApp</h4>
-                                <span>Message Me</span>
-                            </div>
-                            <div class="satellite-glow"></div>
-                        </div>
-                    </a>
+          <div class="project-links">
+            <a href="https://yonique-stationery.vercel.app" class="project-link live-demo">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+            <a href="https://github.com/OYEthecreator/Yonique-stationery" class="project-link source-code">
+              <i class="devicon-github-original"></i> Source Code
+            </a>
+          </div>
+        </div>
+      </div>
 
-                    <a href="https://github.com/OYEthecreator" target="_blank" rel="noopener noreferrer">
-                        <div class="contact-satellite" data-aos="fade-up" data-aos-delay="400">
-                            <div class="satellite-icon">
-                                <i class="fab fa-github"></i>
-                            </div>
-                            <div class="satellite-info">
-                                <h4>GitHub</h4>
-                                <span>View Projects</span>
-                            </div>
-                            <div class="satellite-glow"></div>
-                        </div>
-                    </a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-                        <div class="contact-satellite" data-aos="fade-up" data-aos-delay="500">
-                            <div class="satellite-icon">
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                            <div class="satellite-info">
-                                <h4>LinkedIn</h4>
-                                <span>Connect</span>
-                            </div>
-                            <div class="satellite-glow"></div>
-                        </div>
-                    </a>
+      <!-- PROJECT 5: SafeMeasure -->
+      <div class="project-card">
+        <!-- ✦ IMAGE PLACEHOLDER -->
+        <div class="project-media">
+  <img src="./images/ChatGPT Image Mar 30, 2026, 07_33_30 PM.png" alt="project">
+  <div class="media-overlay"></div>
+</div>
+        <div class="project-content">
+          <h2 class="project-title">SafeMeasure</h2>
+          <p class="project-description">
+            Professional landing page designed for SafeMeasure Construction,
+            showcasing construction services, safety standards, and project expertise.
+            Built to establish trust and highlight compliance-driven workflows.
+          </p>
 
-                    <a href="https://instagram.com/oyeeee_06" target="_blank" rel="noopener noreferrer">
-                        <div class="contact-satellite" data-aos="fade-up" data-aos-delay="600">
-                            <div class="satellite-icon">
-                                <i class="fab fa-instagram"></i>
-                            </div>
-                            <div class="satellite-info">
-                                <h4>Instagram</h4>
-                                <span>Follow</span>
-                            </div>
-                            <div class="satellite-glow"></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="metallic-form-container" data-aos="fade-up" data-aos-delay="700">
-                    <form class="metallic-form" action="https://formspree.io/f/xovknngl" method="POST">
-                        <h3>Send a Message</h3>
+          <div class="tech-stack">
+            <span class="tech-tag"><i class="devicon-html5-plain colored"></i> HTML5</span>
+            <span class="tech-tag"><i class="devicon-css3-plain colored"></i> CSS3</span>
+            <span class="tech-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fas fa-mobile-alt"></i> Responsive</span>
+          </div>
 
-                        <div class="form-group">
-                            <input type="text" name="name" required>
-                            <label>Your Name</label>
-                            <div class="form-underline"></div>
-                        </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-value">98%</span><span class="metric-label">Performance</span></div>
+            <div class="metric"><span class="metric-value">100%</span><span class="metric-label">Mobile</span></div>
+            <div class="metric"><span class="metric-value">A+</span><span class="metric-label">SEO</span></div>
+          </div>
 
-                        <div class="form-group">
-                            <input type="email" name="email" required>
-                            <label>Your Email</label>
-                            <div class="form-underline"></div>
-                        </div>
+          <div class="project-links">
+            <a href="https://safemeasure-construction-loyg.vercel.app" class="project-link live-demo">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+            <a href="https://github.com/OYEthecreator/Safemeasure-Construction" class="project-link source-code">
+              <i class="devicon-github-original"></i> Source Code
+            </a>
+          </div>
+        </div>
+      </div>
 
-                        <div class="form-group">
-                            <textarea name="message" required></textarea>
-                            <label>Your Message</label>
-                            <div class="form-underline"></div>
-                        </div>
+      <!-- PROJECT: Cityverse -->
+<div class="project-card">
+  <div class="project-media">
+    <img src="./images/ChatGPT Image Mar 31, 2026, 03_43_10 AM.png" alt="Cityverse">
+    <div class="media-overlay"></div>
+  </div>
 
-                        <button type="submit" class="metallic-btn">
-                            <span>Send Message</span>
-                            <div class="btn-reflection"></div>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
+  <div class="project-content">
+
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:6px;">
+      <h2 class="project-title" style="margin:0;">Cityverse</h2>
+      <span style="background:linear-gradient(135deg,#853801,black,#ef4444); color:#fff; font-size:0.62rem; font-weight:700; letter-spacing:2px; padding:3px 10px; border-radius:20px; text-transform:uppercase;">🚧 In Development</span>
+    </div>
+
+    <p class="project-description">
+      Cityverse is a full-scale smart city platform — a unified digital ecosystem where an entire city lives in one app.
+      From discovering local housing listings and booking transport, to accessing healthcare services, tracking utility bills,
+      exploring education programs, and participating in community governance — Cityverse brings every layer of city life
+      into a seamless, real-time experience. Built as a production-grade MERN stack application with a modular architecture,
+      it's not just a project — it's infrastructure.
+    </p>
+
+    <!-- City Modules -->
+    <div style="margin: 12px 0 8px;">
+      <p style="font-size:0.72rem; letter-spacing:2px; text-transform:uppercase; opacity:0.5; margin-bottom:8px;">City Modules</p>
+      <div style="display:flex; flex-wrap:wrap; gap:8px;">
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-store" style="color:#f97316;"></i> Marketplace
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-bus" style="color:#3b82f6;"></i> Transport
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-home" style="color:#8b5cf6;"></i> Housing
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-heartbeat" style="color:#ef4444;"></i> Healthcare
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-graduation-cap" style="color:#10b981;"></i> Education
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-calendar-star" style="color:#f59e0b;"></i> Events
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-users" style="color:#06b6d4;"></i> Community
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-bolt" style="color:#eab308;"></i> Utilities
+        </span>
+        <span style="display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:5px 10px; border-radius:8px; font-size:0.78rem;">
+          <i class="fas fa-wallet" style="color:#a855f7;"></i> City Wallet
+        </span>
+      </div>
+    </div>
+
+    <!-- Tech Stack -->
+    <div class="tech-stack">
+      <span class="tech-tag"><i class="devicon-mongodb-plain colored"></i> MongoDB</span>
+      <span class="tech-tag"><i class="devicon-express-original" style="color:#fff;"></i> Express.js</span>
+      <span class="tech-tag"><i class="devicon-react-original colored"></i> React</span>
+      <span class="tech-tag"><i class="devicon-nodejs-plain colored"></i> Node.js</span>
+      <span class="tech-tag"><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</span>
+      <span class="tech-tag"><i class="fas fa-plug" style="color:#10b981;"></i> REST API</span>
+    </div>
+
+    <!-- Metrics -->
+    <div class="project-metrics">
+      <div class="metric">
+        <span class="metric-value">9</span>
+        <span class="metric-label">Modules</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">Full</span>
+        <span class="metric-label">MERN Stack</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">🔒</span>
+        <span class="metric-label">JWT Auth</span>
+      </div>
+    </div>
+
+    <!-- Links -->
+    <div class="project-links">
+      <a href="#" class="project-link live-demo" onclick="document.getElementById('cityverse-modal').style.display='flex'; return false;
+      ">
+        <i class="fas fa-play"></i> Live Demo
+      </a>
+      <a href="#" class="project-link source-code" onclick="document.getElementById('cityverse-modal').style.display='flex'; return 
+      false;">
+        <i class="devicon-github-original"></i> Source Code
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══ CITYVERSE COMING SOON MODAL ═══ -->
+<div id="cityverse-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(10px); z-index:9999; align-items:center; justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
+  <div style="background:linear-gradient(135deg,#0f0f1a,#1a1a2e); border:1px solid rgba(249,115,22,0.3); border-radius:20px; padding:48px 40px; max-width:480px; width:90%; text-align:center; position:relative; box-shadow:0 0 60px rgba(249,115,22,0.15);">
+    <button onclick="document.getElementById('cityverse-modal').style.display='none'" style="position:absolute; top:16px; right:20px; background:none; border:none; color:rgba(255,255,255,0.4); font-size:1.4rem; cursor:pointer;">✕</button>
+    <div style="font-size:3rem; margin-bottom:16px;">🏙️</div>
+    <h2 style="font-size:1.6rem; font-weight:800; margin-bottom:8px; background:linear-gradient(135deg,#f97316,#ef4444); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Cityverse</h2>
+    <p style="font-size:0.8rem; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,0.4); margin-bottom:20px;">Currently In Development</p>
+    <p style="color:rgba(255,255,255,0.65); line-height:1.7; font-size:0.95rem; margin-bottom:28px;">
+      This project is actively being built. A full smart city platform powered by the MERN stack — launching soon.
+    </p>
+    <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+      <button onclick="document.getElementById('cityverse-modal').style.display='none'" style="display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15); color:#fff; padding:12px 24px; border-radius:10px; font-weight:600; font-size:0.88rem; cursor:pointer;">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- ═══ WORK WITH ME ═══ -->
+  <section class="work-with-me">
+    <h1 class="section-title" data-aos="fade-down">What It's Like To Work With Me</h1>
+    <p class="section-subtitle" data-aos="fade-down" data-aos-delay="200">Professional partnership focused on your business success</p>
+
+    <div class="process-timeline">
+      <div class="timeline-phase">
+        <div class="phase-content" data-aos="fade-right">
+          <div class="phase-number">01</div>
+          <div class="phase-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Business-First Approach</h3>
+          <p>I focus on your revenue goals and user conversion, not just technical requirements. Every feature is built to drive business growth.</p>
+          <div class="phase-features">
+            <span><i class="fas fa-chart-line"></i> Revenue Focused</span>
+            <span><i class="fas fa-users"></i> User Conversion</span>
+            <span><i class="fas fa-crosshairs"></i> Goal Oriented</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-phase">
+        <div class="phase-content" data-aos="fade-left">
+          <div class="phase-number">02</div>
+          <div class="phase-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Reliable Partnership</h3>
+          <p>Consistent on-time delivery with transparent communication. I become an extension of your team, not just a contractor.</p>
+          <div class="phase-features">
+            <span><i class="fas fa-clock"></i> On-Time Delivery</span>
+            <span><i class="fas fa-comments"></i> Transparent Updates</span>
+            <span><i class="fas fa-shield-alt"></i> Trustworthy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-phase">
+        <div class="phase-content" data-aos="fade-right">
+          <div class="phase-number">03</div>
+          <div class="phase-icon"><i class="fas fa-cogs"></i></div>
+          <h3>Scalable Solutions</h3>
+          <p>Architecture designed for growth and maintenance. Your investment today won't need expensive rewrites tomorrow.</p>
+          <div class="phase-features">
+            <span><i class="fas fa-expand"></i> Growth Ready</span>
+            <span><i class="fas fa-tools"></i> Easy Maintenance</span>
+            <span><i class="fas fa-bolt"></i> Performance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-phase">
+        <div class="phase-content" data-aos="fade-left">
+          <div class="phase-number">04</div>
+          <div class="phase-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Market-Ready Quality</h3>
+          <p>Production-level code with thorough testing across all devices. Your product works perfectly for every user, everywhere.</p>
+          <div class="phase-features">
+            <span><i class="fas fa-mobile"></i> Cross-Platform</span>
+            <span><i class="fas fa-vial"></i> Quality Tested</span>
+            <span><i class="fas fa-search"></i> SEO Optimized</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-phase">
+        <div class="phase-content" data-aos="fade-right">
+          <div class="phase-number">05</div>
+          <div class="phase-icon"><i class="fas fa-headset"></i></div>
+          <h3>Ongoing Value</h3>
+          <p>Comprehensive documentation and strategic guidance. Your success continues long after project completion.</p>
+          <div class="phase-features">
+            <span><i class="fas fa-book"></i> Full Documentation</span>
+            <span><i class="fas fa-graduation-cap"></i> Knowledge Transfer</span>
+            <span><i class="fas fa-rocket"></i> Growth Strategy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact-section">
+    <div class="metallic-universe">
+      <div class="central-sphere" data-aos="zoom-in">
+        <div class="sphere-core">
+          <h2>Let's Connect</h2>
+          <p>Ready to build something amazing?</p>
+        </div>
+        <div class="sphere-glow"></div>
+        <div class="sphere-reflection"></div>
+      </div>
+
+      <div class="satellite-orbit">
+        <a href="mailto:Oshodioyewole4@gmail.com" target="_blank" rel="noopener noreferrer">
+          <div class="contact-satellite" data-aos="fade-up" data-aos-delay="200">
+            <div class="satellite-icon"><i class="fas fa-envelope"></i></div>
+            <div class="satellite-info"><h4>Email</h4><span>Message Me</span></div>
+            <div class="satellite-glow"></div>
+          </div>
+        </a>
+
+        <a href="https://wa.me/2348089951563" target="_blank" rel="noopener noreferrer">
+          <div class="contact-satellite" data-aos="fade-up" data-aos-delay="300">
+            <div class="satellite-icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="satellite-info"><h4>WhatsApp</h4><span>Message Me</span></div>
+            <div class="satellite-glow"></div>
+          </div>
+        </a>
+
+        <a href="https://github.com/OYEthecreator" target="_blank" rel="noopener noreferrer">
+          <div class="contact-satellite" data-aos="fade-up" data-aos-delay="400">
+            <div class="satellite-icon"><i class="devicon-github-original"></i></div>
+            <div class="satellite-info"><h4>GitHub</h4><span>View Projects</span></div>
+            <div class="satellite-glow"></div>
+          </div>
+        </a>
+<!-- 
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <div class="contact-satellite" data-aos="fade-up" data-aos-delay="500">
+            <div class="satellite-icon"><i class="devicon-linkedin-plain colored"></i></div>
+            <div class="satellite-info"><h4>LinkedIn</h4><span>Connect</span></div>
+            <div class="satellite-glow"></div>
+          </div>
+        </a> -->
+
+        <a href="https://instagram.com/oyeeee_06" target="_blank" rel="noopener noreferrer">
+          <div class="contact-satellite" data-aos="fade-up" data-aos-delay="600">
+            <div class="satellite-icon"><i class="fab fa-instagram"></i></div>
+            <div class="satellite-info"><h4>Instagram</h4><span>Follow</span></div>
+            <div class="satellite-glow"></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="metallic-form-container" data-aos="fade-up" data-aos-delay="700">
+        <form class="metallic-form" action="https://formspree.io/f/xovknngl" method="POST">
+          <h3>Send a Message</h3>
+          <div class="form-group">
+            <input type="text" name="name" required>
+            <label>Your Name</label>
+            <div class="form-underline"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" required>
+            <label>Your Email</label>
+            <div class="form-underline"></div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" required></textarea>
+            <label>Your Message</label>
+            <div class="form-underline"></div>
+          </div>
+          <button type="submit" class="metallic-btn">
+            <span>Send Message</span>
+            <div class="btn-reflection"></div>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</div>
         <script>
             const navLinks = document.querySelectorAll('header ul li a');
             const headerOffset = 120; // Height of your fixed header
