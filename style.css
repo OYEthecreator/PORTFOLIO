@@ -1660,7 +1660,8 @@ header ul li a:hover {
     .timeline-phase::after { left: 30px; margin-left: 0; }
     .metallic-universe { gap: 50px; }
     .central-sphere { width: 250px; height: 250px; }
-    .sphere-core { width: 160px; height: 160px; }
+    .sphere-core { width: 100px; height: 160px; }
+    .sphere-core h2 { font-size: 0.5rem; }  
     .satellite-orbit { grid-template-columns: 1fr; gap: 20px; }
     .contact-satellite { padding: 25px; }
     .metallic-form { padding: 40px 30px; }
@@ -1701,7 +1702,7 @@ header ul li a:hover {
     .contact-section { padding: 80px 15px; }
     .central-sphere { width: 200px; height: 200px; }
     .sphere-core { width: 140px; height: 140px; }
-    .sphere-core h2 { font-size: 1.2rem; }
+    .sphere-core h2 { font-size: 1rem; }
     .metallic-form { padding: 30px 20px; }
     .metallic-form h3 { font-size: 1.5rem; }
 }
